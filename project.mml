@@ -1,0 +1,59 @@
+{
+  "bounds": [
+    -97.9142,
+    30.141,
+    -97.5803,
+    30.5034
+  ],
+  "center": [
+    -97.7462,
+    30.2713,
+    10
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 10,
+  "maxzoom": 18,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -97.91418202683735,
+        30.14098348559487,
+        -97.58026362513363,
+        30.503426828903528
+      ],
+      "id": "bikeroutes",
+      "class": "bikeroutes",
+      "Datasource": {
+        "file": "./layers/bikeroutes/austinbikeroutes4326.shp",
+        "id": "bikeroutes",
+        "project": "CityOfAustinBikeRoutes",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bikeroutes"
+    }
+  ],
+  "scale": 1,
+  "metatile": 3,
+  "name": "City of Austin Bike Routes",
+  "description": "Official City of Austin Bike Routes Published by City of Austin GIS Division",
+  "attribution": "Bike Routes Courtesy of City of Austin GIS Division"
+}
