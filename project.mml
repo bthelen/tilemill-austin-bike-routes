@@ -11,7 +11,9 @@
     10
   ],
   "format": "png",
-  "interactivity": false,
+  "interactivity": {
+    "fields": []
+  },
   "minzoom": 10,
   "maxzoom": 18,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
@@ -55,5 +57,6 @@
   "metatile": 3,
   "name": "City of Austin Bike Routes",
   "description": "Official City of Austin Bike Routes Published by City of Austin GIS Division",
-  "attribution": "Bike Routes Courtesy of City of Austin GIS Division"
+  "attribution": "Bike Routes Courtesy of City of Austin GIS Division",
+  "legend": "<div class='my-legend'> \n  <div class='legend-title'>Bikeability Index of Bike Routes</div> \n  <div class='legend-scale'>\n    <ul class='legend-labels'> \n      <li><span style='background:#229A00;'></span>High Ease of Use</li> \n      <li><span style='background:#4B5ACE;'></span>Medium Ease of Use</li> \n      <li><span style='background:#FF6600;'></span>Low Ease of Use -- Not for Novice Cyclist</li> \n    </ul> \n  </div> \n  <div class='legend-source'>Source: <a href=\"#link to source\">City of Austin GIS Division</a></div> \n</div> \n<style type='text/css'> \n  .my-legend .legend-title { text-align: left; margin-bottom: 5px; font-weight: bold; font-size: 90%; } \n  .my-legend .legend-scale ul { margin: 0; margin-bottom: 5px; padding: 0; float: left; list-style: none; } \n  .my-legend .legend-scale ul li { font-size: 80%; list-style: none; margin-left: 0; line-height: 18px;   margin-bottom: 2px; } \n  .my-legend ul.legend-labels li span { display: block; float: left; height: 2px; width: 30px; margin-right: 5px; margin-left: 0; margin-top: 6px; border: 1px solid #999; } \n  .my-legend .legend-source { font-size: 70%; color: #999; clear: both; } \n  .my-legend a { color: #777; } \n</style>\n"
 }
