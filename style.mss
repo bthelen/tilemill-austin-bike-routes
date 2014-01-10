@@ -144,6 +144,11 @@
 /* ZOOMED IN 18
 /* ================================================================== */
 #bikeroutes [zoom=18][USE_RATING='H']{
+  shield-name: '[ROUTE_NUM]';
+  shield-size: 9;
+  shield-face-name: @sans;
+  shield-fill: #fff;
+  shield-file: url(img/shield-bikeroute-high-8.png);
   line-width:4;
   line-color:@bikeroute_h_line;
   text-name:'[ROUTE_NUM]';
