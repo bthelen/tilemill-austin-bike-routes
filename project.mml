@@ -70,7 +70,7 @@
       "Datasource": {
         "file": "layers/bikeroutes/austinbikeroutes4326.shp",
         "id": "bikeroutes_label",
-        "project": "CityOfAustinBikeRoutes",
+        "project": "tilemill-austin-bike-routes",
         "srs": ""
       },
       "srs-name": "autodetect",

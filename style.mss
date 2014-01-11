@@ -60,7 +60,7 @@
   [USE_RATING='L'] {line-color: @line_color_l;}
 }
 /* ================================================================== */
-/* labels
+/* shields for bike routes label zoom 12-14
 /* ================================================================== */
 #bikeroutes_label [zoom>=12][zoom<15]{
   shield-name: '[ROUTE_NUM]';
@@ -69,11 +69,13 @@
   shield-fill: @shield_fill;
   shield-min-distance: 100;
   shield-file: url(img/shield-bikeroute-high-8.png);
-  [USE_RATING='H'] {shield-file: url(img/shield-bikeroute-high-8.png);}
-  [USE_RATING='M'] {shield-file: url(img/shield-bikeroute-medium-8.png);}
-  [USE_RATING='L'] {shield-file: url(img/shield-bikeroute-low-8.png);}
+  [USE_RATING='H'] {shield-file: url(img/shield-bikeroute-high.png);}
+  [USE_RATING='M'] {shield-file: url(img/shield-bikeroute-medium.png);}
+  [USE_RATING='L'] {shield-file: url(img/shield-bikeroute-low.png);}
 }
-
+/* ================================================================== */
+/* shields for bike routes label zoom 15-18
+/* ================================================================== */
 #bikeroutes_label [zoom>=15][zoom<=18]{
   shield-name: '[ROUTE_NUM]';
   shield-size: @zoom18_text_size;
@@ -84,7 +86,7 @@
   [zoom=16] {shield-min-distance: 100;}
   [zoom=17] {shield-min-distance: 150;}
   [zoom=18] {shield-min-distance: 200;}
-  [USE_RATING='H'] {shield-file: url(img/shield-bikeroute-high-8.png);}
-  [USE_RATING='M'] {shield-file: url(img/shield-bikeroute-medium-8.png);}
-  [USE_RATING='L'] {shield-file: url(img/shield-bikeroute-low-8.png);}
+  [USE_RATING='H'] {shield-file: url(img/shield-bikeroute-high.png);}
+  [USE_RATING='M'] {shield-file: url(img/shield-bikeroute-medium.png);}
+  [USE_RATING='L'] {shield-file: url(img/shield-bikeroute-low.png);}
 }
