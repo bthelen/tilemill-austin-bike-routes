@@ -12,7 +12,12 @@
   ],
   "format": "png",
   "interactivity": {
-    "fields": []
+    "fields": [
+      "ROUTE_NUM",
+      "STR_NAME"
+    ],
+    "layer": "",
+    "template_teaser": "Bike Route:  {{{ROUTE_NUM}}} <br />\nStreet Name:  {{{STR_NAME}}}"
   },
   "minzoom": 10,
   "maxzoom": 18,
@@ -51,6 +56,27 @@
       "srs": "",
       "advanced": {},
       "name": "bikeroutes"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -97.91418202683735,
+        30.14098348559487,
+        -97.58026362513363,
+        30.503426828903528
+      ],
+      "id": "bikeroutes_label",
+      "class": "bikeroutes_label",
+      "Datasource": {
+        "file": "layers/bikeroutes/austinbikeroutes4326.shp",
+        "id": "bikeroutes_label",
+        "project": "CityOfAustinBikeRoutes",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bikeroutes_label"
     }
   ],
   "scale": 1,
