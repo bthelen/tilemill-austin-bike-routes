@@ -17,7 +17,7 @@
 @line_width_z18:    4;
 @shield_fill:       #fff;
 @zoom18_text_size:  12;
-@line_case_color:     #FCFBE7 * 0.85;
+@line_case_color:   #FCFBE7 * 0.85;
 
 /* ================================================================== */
 /* casing for bike routes
@@ -68,6 +68,7 @@
   shield-face-name: @sans_bold;
   shield-fill: @shield_fill;
   shield-min-distance: 100;
+  shield-avoid-edges: true;
   shield-file: url(img/shield-bikeroute-high-8.png);
   [USE_RATING='H'] {shield-file: url(img/shield-bikeroute-high.png);}
   [USE_RATING='M'] {shield-file: url(img/shield-bikeroute-medium.png);}
@@ -81,6 +82,7 @@
   shield-size: @zoom18_text_size;
   shield-face-name: @sans_bold;
   shield-fill: @shield_fill;
+  shield-avoid-edges: true;
   shield-file: url(img/shield-bikeroute-high-8.png);
   [zoom=15] {shield-min-distance: 100;}
   [zoom=16] {shield-min-distance: 100;}
