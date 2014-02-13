@@ -77,6 +77,44 @@
       "srs": "",
       "advanced": {},
       "name": "bikeroutes_label"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -98.34899400199447,
+        29.55707799992747,
+        -96.98302099908491,
+        30.883428002931872
+      ],
+      "id": "bikeroutemap20131126",
+      "class": "bikeroutemap20131126",
+      "Datasource": {
+        "file": "layers/bikeroutemap20131126/bikeroutemap20131126.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bikeroutemap20131126",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -98.170500097395,
+        30.027655809860846,
+        -97.40927943653408,
+        30.587072384415297
+      ],
+      "id": "bikefacilities20131126",
+      "class": "bikefacilities20131126",
+      "Datasource": {
+        "file": "layers/bikefacilities20131126/bikefacilities20131126.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bikefacilities20131126",
+      "status": "off"
     }
   ],
   "scale": 1,

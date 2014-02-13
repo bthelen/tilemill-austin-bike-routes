@@ -92,3 +92,14 @@
   [USE_RATING='M'] {shield-file: url(img/shield-bikeroute-medium.png);}
   [USE_RATING='L'] {shield-file: url(img/shield-bikeroute-low.png);}
 }
+
+#bikeroutemap20131126 {
+  line-width:1;
+  line-color:#168;
+}
+
+
+#bikefacilities20131126 {
+  line-width:1;
+  line-color:#168;
+}
