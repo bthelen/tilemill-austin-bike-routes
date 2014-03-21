@@ -55,7 +55,8 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "bikeroutes"
+      "name": "bikeroutes",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -70,13 +71,14 @@
       "Datasource": {
         "file": "layers/bikeroutes/austinbikeroutes4326.shp",
         "id": "bikeroutes_label",
-        "project": "tilemill-austin-bike-routes",
+        "project": "CityOfAustinBikeRoutes",
         "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "bikeroutes_label"
+      "name": "bikeroutes_label",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -89,13 +91,15 @@
       "id": "bikeroutemap20131126",
       "class": "bikeroutemap20131126",
       "Datasource": {
-        "file": "layers/bikeroutemap20131126/bikeroutemap20131126.shp"
+        "file": "layers/bikeroutemap20131126/bikeroutemap20131126.shp",
+        "id": "bikeroutemap20131126",
+        "project": "CityOfAustinBikeRoutes",
+        "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "bikeroutemap20131126",
-      "status": "off"
+      "name": "bikeroutemap20131126"
     },
     {
       "geometry": "linestring",
@@ -108,13 +112,37 @@
       "id": "bikefacilities20131126",
       "class": "bikefacilities20131126",
       "Datasource": {
-        "file": "layers/bikefacilities20131126/bikefacilities20131126.shp"
+        "file": "layers/bikefacilities20131126/bikefacilities20131126.shp",
+        "id": "bikefacilities20131126",
+        "project": "CityOfAustinBikeRoutes",
+        "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
       "name": "bikefacilities20131126",
       "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -98.170500097395,
+        30.027655809860846,
+        -97.40927943653408,
+        30.587072384415297
+      ],
+      "id": "bikeroutemap20131126_label",
+      "class": "bikeroutemap20131126_label",
+      "Datasource": {
+        "file": "layers/bikeroutemap20131126_label/bikeroutemap20131126_label.shp",
+        "id": "bikeroutemap20131126_label",
+        "project": "CityOfAustinBikeRoutes",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bikeroutemap20131126_label"
     }
   ],
   "scale": 1,
